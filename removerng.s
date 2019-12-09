@@ -1,7 +1,7 @@
     section .text
-    global leaverng
+    global removerng
 
-leaverng:
+removerng:
     push rbp
     mov rbp, rsp
 
