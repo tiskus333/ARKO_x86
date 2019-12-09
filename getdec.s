@@ -10,6 +10,7 @@ getdec:
     jz end
 
     dec rdi
+    xor r8b, r8b
 
 loop_1:
     inc rdi
